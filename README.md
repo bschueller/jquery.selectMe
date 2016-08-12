@@ -1,8 +1,12 @@
 # jquery.selectMe.js
-jQuery-plugin to replace large <select> elements with a neat and searchable solution.
-# Usage
+
+## Description
+jQuery-plugin to replace large `<select>` elements with a neat and searchable solution.
+
+## HowTo
 ```javascript
 $('select').selectMe();
+
 $('select').selectMe({
     width: '100%',
     columnCount: 2,
@@ -31,7 +35,7 @@ $.fn.selectMe.getSummaryText = function(selectedOptionsArray, allOptionsCount, m
 }
 ```
 
-# Download
+## Download
 You can download via npm
 ```
 npm i jquery-selectme
