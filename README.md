@@ -1,7 +1,7 @@
 # jquery.selectMe.js
 
 ## Description
-jQuery-plugin to replace large &lt;select> elements with a neat and searchable solution.
+jQuery-plugin to replace large &lt;select&gt; elements with a neat and searchable solution.
 
 ## HowTo
 ```javascript
