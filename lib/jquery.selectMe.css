@@ -1,0 +1,121 @@
+.selectme-wrapper,
+.selectme-wrapper * {
+    box-sizing: border-box;
+	position: relative;
+}
+
+.selectme-wrapper > button:focus,
+.selectme-wrapper > button {
+    position: relative;
+    width: 100%;
+    text-align: left;
+    border: 1px solid #aaa;
+	border-radius: 4px;
+    background-color: #fff;
+    padding: 5px 20px 5px 5px;
+    font-size: 13px;
+    color: #aaa;
+	outline-width: 0;
+    white-space: nowrap;
+}
+
+.selectme-wrapper > button:focus {
+	outline-width: 1px;
+}
+
+.selectme-wrapper > button:after {
+    content: ' ';
+    height: 0;
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    width: 0;
+    border: 6px solid rgba(0, 0, 0, 0);
+    border-top-color: #999;
+    margin-top: -3px;
+}
+
+.selectme-wrapper > .selectme-dropdown {
+	display: none;
+	position: absolute;
+    width: 100%;
+    margin-top: 1px;
+    background: white;
+    z-index: 2000;
+    border: 1px solid #aaa;
+	border-radius: 4px;
+}
+
+.selectme-wrapper > .selectme-dropdown > .selectme-search input {
+    width: 100%;
+    padding: 4px 5px;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+    border: none;
+    border-bottom: 1px groove;
+    outline: none;
+}
+
+.selectme-wrapper > .selectme-dropdown .selectme-shortcuts {
+    border-bottom: 1px solid #ddd;
+	padding: 1px 6px 2px 6px;
+	text-align: right;
+}
+
+.selectme-wrapper > .selectme-dropdown .selectme-shortcuts a {
+	color: #aaa;
+	text-decoration: none;
+	font-size: 0.8em;
+	padding-left: 5px;
+	padding-right: 5px;
+	border-right: 1px solid #aaa;
+}
+
+.selectme-wrapper > .selectme-dropdown .selectme-shortcuts a:last-child {
+	padding-right: 0;
+	border: 0;
+}
+
+.selectme-wrapper > .selectme-dropdown > ul,
+.selectme-wrapper > .selectme-dropdown > ul > li.optgroup ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.selectme-wrapper > .selectme-dropdown > ul > li.optgroup {
+    padding: 5px;
+}
+.selectme-wrapper > .selectme-dropdown > ul > li.optgroup + li.optgroup {
+    border-top: 1px solid #aaa;
+}
+
+.selectme-wrapper > .selectme-dropdown > ul > li.optgroup .label {
+    display: block;
+    padding: 5px 0 0 0;
+    font-weight: bold;
+}
+
+.selectme-wrapper > .selectme-dropdown > ul label {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    padding: 4px;
+    margin: 1px 0;
+    border: 1px dotted transparent;
+	white-space: nowrap;
+    font-weight: normal;
+}
+
+.selectme-wrapper > .selectme-dropdown > ul li.selectme-marked label {
+    background-color: #efefef;
+    border-color: transparent;
+}
+
+.selectme-wrapper > .selectme-dropdown > ul input {
+    margin: 0 10px 0 0;
+    position: relative;
+    left: 4px;
+    top: 1px;
+	outline: none;
+}

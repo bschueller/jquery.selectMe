@@ -1,0 +1,23 @@
+{
+  "name": "jquery-selectme",
+  "version": "0.1.0",
+  "description": "jQuery-plugin to replace large <select> elements with a neat and searchable solution.",
+  "main": "jquery.selectMe.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "jquery-plugin",
+	"ecosystem:jquery",
+	"select",
+	"option",
+	"checkbox",
+	"radiobutton",
+	"search"
+  ],
+  "author": "Benjamin Schueller <benjamin.schueller@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+	"jquery"
+  }
+}
