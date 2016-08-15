@@ -11,6 +11,7 @@ $('select').selectMe();
 A complete customizing of the selectMe field looks like this:
 ```javascript
 $('select').selectMe({
+    cssFile: '../lib/jquery.selectMe.css',
     width: '100%',
     columnCount: 2,
     search: true,
@@ -42,6 +43,10 @@ $.fn.selectMe.getSummaryText = function(selectedOptionsArray, allOptionsCount, m
 ```
 
 ## Configuration
+
+### cssFile
+*Default: ../lib/jquery.selectMe.css'*  
+Path to the css file.
 
 #### width
 *Default: 100%*  
