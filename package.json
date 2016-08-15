@@ -1,6 +1,6 @@
 {
   "name": "jquery-selectme",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "jQuery-plugin to replace large select elements with a neat and searchable solution.",
   "main": "./lib/jquery.selectMe.js",
   "scripts": {

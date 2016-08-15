@@ -1,10 +1,15 @@
 # jquery.selectMe.js
 jQuery-plugin to replace large &lt;select&gt; elements with a neat and searchable solution.
 
-## HowTo
+## Examples
+
+To replace a select box with the default selectMe field just call:
 ```javascript
 $('select').selectMe();
+```
 
+A complete customizing of the selectMe field looks like this:
+```javascript
 $('select').selectMe({
     width: '100%',
     columnCount: 2,
@@ -27,11 +32,37 @@ $('select').selectMe({
     onSearch: function( element ) {},
     onOptionValueChanged: function( element ) {},
 });
+```
 
+You can also override the function which generates the placeholder text:
+```javascript
 $.fn.selectMe.getSummaryText = function(selectedOptionsArray, allOptionsCount, messageSource) {
     return 'your individual placeholder text'; // something like '1 from 10' or 'SelectedTextOne, SelectedTextTwo, ...'
 }
 ```
+
+## Configuration
+
+#### width
+*Default: 100%*  
+Defines the width of the selectMe field. It can be written in every possible css syntax (like 300px, 10em, 100%, etc.).
+
+#### columnCount
+*Default: 1*  
+How many columns should be rendered for the options?
+
+#### search
+*Default: true*  
+Should the search be available?
+
+#### locale
+*Default: en*  
+Which language should be used? The language must be defined in 'localeResource'.
+
+#### localeResource
+*Default: english and german descriptions*  
+Contains the descriptions for several labels of the selectMe field.  
+Available keys are 'none', 'from', 'search', 'selectAll', 'unselectAll' and 'showSelected'.
 
 ## Download
 You can download via npm
