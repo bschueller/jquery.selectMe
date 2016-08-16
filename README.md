@@ -1,6 +1,8 @@
 # jquery.selectMe.js
 jQuery-plugin to replace large &lt;select&gt; elements with a neat and searchable solution.
 
+![jQuery SelectMe](https://raw.githubusercontent.com/bschueller/jquery.selectMe/master/img/optgroups.jpg)
+
 ## Features
 - Search for specific elements
 - Select or unselect all elements which are currently shown
