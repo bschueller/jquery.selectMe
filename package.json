@@ -1,6 +1,6 @@
 {
   "name": "jquery-selectme",
-  "version": "0.1.7",
+  "version": "0.2.0",
   "description": "jQuery-plugin to replace large select elements with a neat and searchable solution.",
   "main": "./lib/jquery.selectMe.js",
   "scripts": {
@@ -15,6 +15,7 @@
 	"ecosystem:jquery",
 	"select",
 	"option",
+	"optgroup",
 	"checkbox",
 	"radiobutton",
 	"search"

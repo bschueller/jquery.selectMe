@@ -1,6 +1,15 @@
 # jquery.selectMe.js
 jQuery-plugin to replace large &lt;select&gt; elements with a neat and searchable solution.
 
+## Features
+- Search for specific elements
+- Select or unselect all elements which are currently shown
+- Show only selected elements
+- Support for optgroups
+- Navigate through elements with arrow keys (up + down)
+- Select elements via space key
+- Jump directly to search field when pressing a key while navigating in dropdown
+
 ## Examples
 
 To replace a select box with the default selectMe field just call:
