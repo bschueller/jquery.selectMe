@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Example of jquery-plugin selectMe</title>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script src="../lib/jquery.selectMe.js"></script>
+</head>
+<body>
+	<form action="#" method="get">
+		<h3>Select with single selection</h3>
+		<p>
+			<select id="first" name="first">
+				<option value="1">Iron Maiden</option>
+				<option value="2">Metallica</option>
+				<option value="3">Slayer</option>
+				<option value="4">Judas Priest</option>
+				<option value="5">Megadeath</option>
+				<option value="6">Black Sabbath</option>
+				<option value="7">Pantera</option>
+				<option value="8">Death</option>
+				<option value="9">Motörhead</option>
+				<option value="10">Anthrax</option>
+				<option value="11">Guns N' Roses</option>
+				<option value="12">Deep Purple</option>
+				<option value="13">Slipknot</option>
+				<option value="14">Lamb of God</option>
+				<option value="15">Type O Negative</option>
+				<option value="16">AC/DC</option>
+				<option value="17">Papa Roach</option>
+				<option value="18">System of a Down</option>
+				<option value="19">Mastodon</option>
+				<option value="20">Opeth</option>
+			</select>
+		</p>
+		<input type="submit" value="Submit" />
+	</form>
+	<script>
+		$.noConflict();
+		jQuery('#first').selectMe(
+			{
+				width: '300px', 
+				columnCount: 2, 
+				search: true,
+			}
+		);
+	</script>
+</body>
+</html>
