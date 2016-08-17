@@ -55,7 +55,7 @@ $.fn.selectMe.getSummaryText = function(selectedOptionsArray, allOptionsCount, m
 
 ## Configuration
 
-### cssFile
+#### cssFile
 *Default: ../lib/jquery.selectMe.css'*  
 Path to the css file.
 
